@@ -7,11 +7,11 @@
         <meta name="author" content="" />
         <title>Heroic Features - Start Bootstrap Template</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="coreWeb/assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('coreWeb/assets/favicon.ico') }}" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="coreWeb/css/styles.css" rel="stylesheet" />
+        <link href="{{ asset('coreWeb/css/styles.css') }}" rel="stylesheet" />
     </head>
     <body>
         <?php
@@ -26,9 +26,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" aria-current="" href="/" title="Homepage">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/public/index.php/about" title="About page">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/public/index.php/services" title="Services page">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/public/index.php/contact" title="Contact page">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about" title="About page">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/services" title="Services page">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contact" title="Contact page">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,6 +48,6 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="coreWeb/js/scripts.js"></script>
+        <script src="{{ asset('coreWeb/js/scripts.js') }}"></script>
     </body>
 </html>
