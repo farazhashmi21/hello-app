@@ -1,6 +1,5 @@
-<?php
-require_once 'header.php'; // Include your configuration file if needed
-?>
+@extends('coreWeb.layout')
+@section('content')
 <!-- Page Content-->
         <section class="pt-4">
             <div class="container px-lg-5">
@@ -63,6 +62,4 @@ require_once 'header.php'; // Include your configuration file if needed
                 </div>
             </div>
         </section>
-        <?php
-require_once 'footer.php'; // Include your footer file
-?>
+@endsection
