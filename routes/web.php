@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Wellcome;
 use App\Http\Controllers\AboutController;
-use App\Http\Controllers\SericesController;
+use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ContactController;
 
 Route::get('/', [Wellcome::class, 'index']);
