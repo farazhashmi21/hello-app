@@ -1,0 +1,2 @@
+# coreWeb
+Core Web Template
